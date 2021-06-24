@@ -6,18 +6,21 @@ import HookPage from './hook';
 import DialogPage from './dialog';
 import HocPage from './HocPage';
 import HocFormPage from './HocFormPage';
+import NavPage from './navPage';
 
 ReactDOM.render(
   <div>
-    <Game />
+    {/* <Game /> */}
     ====================
-    <HookPage />
+    {/* <HookPage /> */}
     ====================
     <DialogPage />
     ====================
-    <HocPage />
+    {/* <HocPage /> */}
     ====================
-    <HocFormPage />
+    {/* <HocFormPage /> */}
+    ====================
+    <NavPage />
   </div>
   ,
   document.getElementById('root')

@@ -65,14 +65,19 @@ ol, ul {
 }
 
 .dialog-box {
-  height: 100px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   vertical-align: middle;
   text-align: center;
   border: 1px solid #000;
+  position: fixed;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+  background: #ccc;;
 }
 
 .container {
   padding: 5px;
   border: 1px solid red;
 }
+

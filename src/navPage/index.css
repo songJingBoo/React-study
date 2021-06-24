@@ -1,0 +1,37 @@
+.navPage-box {
+    height: 500px;
+    width: 500px;
+    border: 1px solid #ccc;
+}
+
+.layout-container {
+    height: 100%;
+}
+
+.nav-content {
+    height: calc(100% - 30px);
+}
+
+.nav-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background: #eee;
+}
+
+.nav-list > li {
+    list-style: none;
+    display: inline-block;
+    flex-grow: 1;
+    text-align: center;
+    line-height:30px;
+    cursor: pointer;
+}
+
+.nav-list > li:hover {
+    background: #ccc;
+}
+
+.nav-list > li.selected {
+    background: #ccc;
+}
